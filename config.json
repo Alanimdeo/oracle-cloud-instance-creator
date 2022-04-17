@@ -1,0 +1,6 @@
+{
+  "webhook_url": "",
+  "mention_id": [],
+  "oracle_cloud_config": "./oracle_cloud_config",
+  "create_instance_option": {}
+}
