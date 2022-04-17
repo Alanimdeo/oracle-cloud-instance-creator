@@ -33,7 +33,7 @@ def main(auth, region, tenancy, create_instance_option, webhook_url, mention_id)
             failed = False
 
         content = ""
-        if len(mention_id) != 0:
+        if failed == False and len(mention_id) != 0:
             for id in mention_id:
                 content += f"<@{id}>"
 
